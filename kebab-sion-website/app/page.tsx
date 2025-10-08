@@ -401,7 +401,7 @@ export default function Home() {
                     className="btn-primary"
                     style={{ backgroundColor: '#25D366', flex: 1, textAlign: 'center' }}
                   >
-                    🛵 Commander WhatsApp
+                    Commander WhatsApp
                   </a>
                   <a 
                     href="https://maps.google.com/?q=Chemin+des+Pains+12,+1950+Sion"
@@ -466,7 +466,7 @@ export default function Home() {
           </div>
           
           <div className="footer-bottom">
-            <p>&copy; 2025 Kebab Sion. Tous droits réservés. | Création: Site vitrine professionnel</p>
+            <p>&copy; 2025 Kebab Sion. Tous droits réservés.</p>
           </div>
         </div>
       </footer>
