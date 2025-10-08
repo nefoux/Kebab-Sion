@@ -38,7 +38,7 @@ export default function Home() {
               className="btn-primary"
               style={{ backgroundColor: '#25D366' }}
             >
-              🛵 Commander sur WhatsApp
+              Commander sur WhatsApp
             </a>
           </div>
         </div>
