@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  // 👇 AJOUTE CE BLOC :
+  icons: {
+    icon: "/favicon.png", // correspond à ton fichier dans /public
+  },
 };
 
 export default function RootLayout({
@@ -34,6 +38,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${poppins.variable} font-poppins antialiased`}>
         {children}
+
         {/* Bouton WhatsApp flottant */}
         <a
           href="https://wa.me/41789133202?text=Bonjour%20👋%20Je%20voudrais%20passer%20une%20commande%20à%20emporter."
