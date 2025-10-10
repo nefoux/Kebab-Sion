@@ -89,13 +89,13 @@ export default function Home() {
             </div>
             <div className="about-images">
               <Image
-                src="https://images.unsplash.com/photo-1556745750-68295fefafc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MXwxfHNlYXJjaHwxfHxyZXN0YXVyYW50fGVufDB8fHx8MTc1OTg2MzMxMnww&ixlib=rb-4.1.0&q=85"
+                src="https://images.unsplash.com/photo-1556745750-68295fefafc5?crop=entropy&cs=srgb&fm=jpg&q=85"
                 alt="Notre équipe"
                 width={250}
                 height={200}
               />
               <Image
-                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxyZXN0YXVyYW50fGVufDB8fHx8MTc1OTg2MzMxMnww&ixlib=rb-4.1.0&q=85"
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?crop=entropy&cs=srgb&fm=jpg&q=85"
                 alt="Notre restaurant"
                 width={250}
                 height={200}
@@ -110,6 +110,128 @@ export default function Home() {
         <div className="container-max">
           <h2>Notre Menu</h2>
           <p className="subtitle">Découvrez nos délicieuses spécialités</p>
+
+          <div className="grid grid-4">
+            {/* Sandwichs */}
+            <div className="card">
+              <div className="card-header">
+                <h3>🥙 Sandwichs</h3>
+              </div>
+              <div className="card-body">
+                <div className="menu-item">
+                  <div>
+                    <h4>Kebab Poulet</h4>
+                    <p>Poulet, salade, tomates, sauce</p>
+                  </div>
+                  <span className="price">CHF 12.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Kebab Agneau</h4>
+                    <p>Agneau, légumes frais, sauce</p>
+                  </div>
+                  <span className="price">CHF 13.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Kebab Mixte</h4>
+                    <p>Poulet et agneau, crudités</p>
+                  </div>
+                  <span className="price">CHF 14.–</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Assiettes */}
+            <div className="card">
+              <div className="card-header">
+                <h3>🍽️ Assiettes</h3>
+              </div>
+              <div className="card-body">
+                <div className="menu-item">
+                  <div>
+                    <h4>Assiette Poulet</h4>
+                    <p>Avec frites et salade</p>
+                  </div>
+                  <span className="price">CHF 16.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Assiette Mixte</h4>
+                    <p>Poulet, agneau, frites, salade</p>
+                  </div>
+                  <span className="price">CHF 18.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Assiette Végé</h4>
+                    <p>Falafels, légumes grillés</p>
+                  </div>
+                  <span className="price">CHF 15.–</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Burgers */}
+            <div className="card">
+              <div className="card-header">
+                <h3>🍔 Burgers</h3>
+              </div>
+              <div className="card-body">
+                <div className="menu-item">
+                  <div>
+                    <h4>Cheeseburger</h4>
+                    <p>Steak, fromage, légumes</p>
+                  </div>
+                  <span className="price">CHF 11.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Chicken Burger</h4>
+                    <p>Poulet pané, salade, tomate</p>
+                  </div>
+                  <span className="price">CHF 12.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Kebab Burger</h4>
+                    <p>Viande kebab, sauce spéciale</p>
+                  </div>
+                  <span className="price">CHF 13.–</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Boissons */}
+            <div className="card">
+              <div className="card-header">
+                <h3>🥤 Boissons</h3>
+              </div>
+              <div className="card-body">
+                <div className="menu-item">
+                  <div>
+                    <h4>Coca-Cola</h4>
+                    <p>33cl</p>
+                  </div>
+                  <span className="price">CHF 3.–</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Ayran</h4>
+                    <p>Boisson traditionnelle</p>
+                  </div>
+                  <span className="price">CHF 3.50</span>
+                </div>
+                <div className="menu-item">
+                  <div>
+                    <h4>Thé à la menthe</h4>
+                    <p>Fraîchement préparé</p>
+                  </div>
+                  <span className="price">CHF 4.–</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div style={{ textAlign: "center", marginTop: "48px" }}>
             <a
@@ -133,9 +255,7 @@ export default function Home() {
       <section id="gallery" className="section bg-light">
         <div className="container-max">
           <h2>Galerie Photos</h2>
-          <p className="subtitle">
-            Découvrez nos délicieux plats en images
-          </p>
+          <p className="subtitle">Découvrez nos délicieux plats en images</p>
 
           <div className="gallery-grid">
             {[
