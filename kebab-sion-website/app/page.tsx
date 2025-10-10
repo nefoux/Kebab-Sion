@@ -32,7 +32,7 @@ export default function Home() {
               🍽️ Voir le menu
             </a>
             <a 
-              href="https://wa.me/41789133202?text=Bonjour%20👋%20Je%20voudrais%20passer%20une%20commande%20à%20emporter."
+              href="https://wa.me/41789133202?"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
